@@ -21,16 +21,16 @@ public class DemoMyArrayList {
         myArrayList.add("taras1");
         showInfo();
 
-        System.out.println("Get element by index:");
         int index = 2;
+        System.out.println("Get element by index " + index + ":");
         Object arrayListElement = myArrayList.get(index);
         if (arrayListElement != null) {
             System.out.println("Element " + index + " is " + arrayListElement);
         }
         System.out.println();
 
-        System.out.println("Remove element from MyArraylist:");
         index = 2;
+        System.out.println("Remove element " + index + " from MyArraylist:");
         myArrayList.remove(index);
         showInfo();
 
@@ -41,7 +41,7 @@ public class DemoMyArrayList {
 
     private void showInfo(){
         myArrayList.print();
-        System.out.println("Size is " + myArrayList.getSize());
+        System.out.println("Size is " + myArrayList.size());
         System.out.println();
     }
 }

@@ -22,16 +22,16 @@ public class DemoMyLinkedList {
         myLinkedList.add(1);
         showInfo();
 
-        System.out.println("Get element by index:");
         int index = 2;
+        System.out.println("Get element by index " + index + ":");;
         Object arrayListElement = myLinkedList.get(index);
         if (arrayListElement != null) {
             System.out.println("Element " + index + " is " + arrayListElement);
         }
         System.out.println();
 
-        System.out.println("Remove element from MyLinkedlist:");
         index = 4;
+        System.out.println("Remove element " + index + " from MyLinkedlist:");
         myLinkedList.remove(index);
         showInfo();
 
@@ -42,7 +42,7 @@ public class DemoMyLinkedList {
 
     private void showInfo(){
         myLinkedList.print();
-        System.out.println("Size is " + myLinkedList.getSize());
+        System.out.println("Size is " + myLinkedList.size());
         System.out.println();
     }
 }

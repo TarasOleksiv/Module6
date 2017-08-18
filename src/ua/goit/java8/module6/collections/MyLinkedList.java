@@ -82,7 +82,7 @@ public class MyLinkedList<T> {
     }
 
     // get size
-    public int getSize(){
+    public int size(){
         return size;
     }
 }

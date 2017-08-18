@@ -56,7 +56,7 @@ public class MyArrayList<T> {
         System.out.println();
     }
 
-    public int getSize(){
+    public int size(){
         return size;
     }
 
