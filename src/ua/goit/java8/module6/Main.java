@@ -32,5 +32,12 @@ public class Main {
         DemoMyStack demoMyStack = new DemoMyStack();
         System.out.println("_________End of Demo_________");
         System.out.println();
+
+        System.out.println("_____________________________");
+        System.out.println("MyHashMap Demo");
+        System.out.println("_____________________________");
+        DemoMyHashMap demoMyHashMap = new DemoMyHashMap();
+        System.out.println("_________End of Demo_________");
+        System.out.println();
     }
 }
